@@ -2,7 +2,7 @@
    Die Daten liegen im lokalen Gerätespeicher, nicht in diesem Cache.
    Bei jeder neuen Version CACHE_VERSION erhöhen (Präfix „flaechensuche-“ beibehalten). */
 const CACHE_PREFIX = 'flaechensuche-';
-const CACHE_VERSION = CACHE_PREFIX + '3.0.0';
+const CACHE_VERSION = CACHE_PREFIX + '3.0.2';
 const DATEIEN = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png', './apple-touch-icon.png'];
 /* Kartenbibliothek (Leaflet + Zeichenwerkzeug): wird mitgespeichert, damit die Karte offline zumindest startet
    und zuletzt angesehene Kacheln aus dem Browser-Cache anzeigen kann. Kacheln selbst benötigen weiterhin Internet. */
